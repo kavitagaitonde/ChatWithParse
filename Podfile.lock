@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bolts-Swift (1.3.0)
+  - Bolts/Tasks (1.8.4)
+  - MBProgressHUD (1.0.0)
+  - Parse (1.15.2):
+    - Bolts/Tasks (~> 1.8)
+  - ParseLiveQuery (2.2.1):
+    - Bolts-Swift (~> 1.3)
+    - Parse (~> 1.15.0)
+    - Starscream (= 2.1.1)
+  - Starscream (2.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - MBProgressHUD
+  - Parse
+  - ParseLiveQuery
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Bolts-Swift: fa98d1b59fc1acea9b21a21306dcdca1c85e3737
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Parse: 7daa8804b876d250a65420534c97d2d786c3b0b4
+  ParseLiveQuery: bc2321032ddae9d6ecfd4842d1b10210d453b08b
+  Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
+
+PODFILE CHECKSUM: 1c2268942b257bcd8555e9a9b202a328343ff53b
+
+COCOAPODS: 1.3.1
